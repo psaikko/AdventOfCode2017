@@ -1,0 +1,1 @@
+print(max(map(abs,(map(sum,zip(*list(map({'n':(0,1,-1),'ne':(1,0,-1),'se':(1,-1,0),'s':(0,-1,1),'sw':(-1,0,1),'nw':(-1,1,0)}.__getitem__,input().split(',')))))))))
